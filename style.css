@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #1a1a1a; /* Dunkles Schwarzviolett */
+    color: #e6e6e6; /* Hellgrau für bessere Lesbarkeit */
+}
+
+header {
+    background-color: #4b0082; /* Indigoviolett */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    background-color: #2c003e; /* Dunkles Violett */
+    margin: 1rem auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Violett-Schwarz-Schatten */
+    color: #e6e6e6;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #4b0082; /* Indigoviolett */
+    color: white;
+    margin-top: 2rem;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form label,
+#contact-form input,
+#contact-form textarea {
+    margin-bottom: 0.5rem;
+}
+
+#contact-form input,
+#contact-form textarea {
+    background-color: #1a1a1a; /* Dunkler Hintergrund für Eingabefelder */
+    color: #e6e6e6; /* Helle Schrift für Lesbarkeit */
+    border: 1px solid #4b0082; /* Violetter Rand */
+    padding: 0.5rem;
+}
+
+#contact-form button {
+    background-color: #8a2be2; /* Blauviolett */
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact-form button:hover {
+    background-color: #6a0dad; /* Dunkleres Violett beim Hover-Effekt */
+}
